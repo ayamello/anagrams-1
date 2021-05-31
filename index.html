@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Importação de fonte-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Anagramas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Anagramas</h1>
+        
+        <div id="divContent">
+            <label for="word">Word: </label>
+            <input type="text" name="word" id="word" placeholder="Digite uma palavra...">
+
+            <button type="button" id="findButton">Gerar</button>
+        </div>
+
+        <div id="divResult"></div>
+
+        <button type="reset" id="reset">Tentar outra vez</button>
+        
+    </div>
+
+    <script type="text/javascript" src="anagrams1/palavras.js"></script>
+    <script type="text/javascript" src="anagrams1/anagrams1.js"></script>
+</body>
+</html>
